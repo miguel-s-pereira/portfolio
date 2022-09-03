@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d81f6d766d.js" crossorigin="anonymous"></script>
+    <script src="./responsive-menu.js" defer></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!--Home Section-->
+    <section id="home-section">
+        <div class="home-container">
+            <header>
+                <nav class="navbar">
+                    <a href="#" class="nav-branding">MIGUEL PEREIRA</a>
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="#about-section" class="nav-link">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills-section" class="nav-link">SKILLS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects-section" class="nav-link">PROJECTS</a>
+                        </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </header>
+            <div class="home-content">
+                <div class="title-content">
+                    <p id="home-sub-title">Hello, my name is Miguel. I am a</p>
+                    <p id="home-title">JUNIOR FRONT-END DEVELOPER & GRAPHIC DESIGNER</p>
+                    <p id="home-sub-title">and this is my portfolio.</p>
+                    <a href="#about-section">
+                        <button>KNOW MORE</button></a>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Section-->
+    <section id="about-section">
+        <div class="about">
+            <div class="title">
+                <h1 id="about-title">About</h1>
+                <hr>
+            </div>
+            <div class="content">
+                <img src="./images/About-Picture.jpg" class="about-picture">
+                <div class="text">
+                    <h1>WHO AM I?</h1>
+                    <h5>Junior Front-End Developer & Graphic Designer</h5>
+                    <p>My name is <b>Miguel Pereira</b>
+                        and I was born in March 17th 1997. Since my
+                        graduation in Multimedia Communication that
+                        I developed a taste for the area of web
+                        development. Although I still work in the area of ​​graphic design, at the moment I am
+                        more focused and interested in the area of ​​front-end development.</p>
+                    <div class="buttons">
+                        <div class="resume-button">
+                            <a href="./images/CV.jpg" download><button type="button" id="about-button">MY RESUME <i
+                                        class="fa-solid fa-download"></i></button></a>
+                        </div>
+                        <div class="socials-button">
+                            <a href="https://www.linkedin.com/in/miguel-pereira-1a5920249/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/miguel-s-pereira"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-top">
+            <a href="#home-section"><i class="fa-solid fa-circle-arrow-up"></i></a>
+        </div>
+    </section>
+    <section id="skills-section">
+        <div class="inner">
+            <div class="title">
+                <h1 id="skills-title">Skills</h1>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./images/html5.png" class="skill-icon">
+                        </div>
+                        <h3>HTML 5</h3>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./images/css3.png" class="skill-icon">
+                        </div>
+                        <h3>CSS 3</h3>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./images/js.png" class="skill-icon">
+                        </div>
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./images/ps.png" class="skill-icon">
+                        </div>
+                        <h3>Photoshop</h3>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./images/ai.png" class="skill-icon">
+                        </div>
+                        <h3>Illustrator</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-top">
+            <a href="#home-section"><i class="fa-solid fa-circle-arrow-up"></i></a>
+        </div>
+    </section>
+    <section id="projects-section">
+        <div class="projects-container">
+            <div class="title">
+                <h1 id="about-title">Projects</h1>
+                <hr>
+            </div>
+            <div class="projects-content">
+                <div class="card">
+                    <div class="top-card">
+                        <h2 class="projects-title">Rock | Paper | Scissors</h2>
+                    </div>
+                    <div class="rps-image"></div>
+                    <div class="bottom-card">
+                        <p class="button-text">Rock, Paper, Scissors game created with HTML, CSS and JS.
+
+                        </p>
+                        <div class="actions-card">
+                            <a href="https://miguel-s-pereira.github.io/Rock-Paper-Scissors/"><button
+                                    id="live-demo-button">Live Demo</button></a>
+                            <a href="https://github.com/miguel-s-pereira/Rock-Paper-Scissors"><button
+                                    id="code-button">Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top-card">
+                        <h2 class="projects-title">Etch-a-Sketch</h2>
+                    </div>
+                    <div class="etch-image"></div>
+                    <div class="bottom-card">
+                        <p class="button-text">Etch-a-Sketch project created with HTML, CSS and JS.
+
+                        </p>
+                        <div class="actions-card">
+                            <a href="https://miguel-s-pereira.github.io/Etch-a-Sketch/"><button
+                                    id="live-demo-button">Live Demo</button></a>
+                            <a href="https://github.com/miguel-s-pereira/Etch-a-Sketch"><button
+                                    id="code-button">Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top-card">
+                        <h2 class="projects-title">Calculator</h2>
+                    </div>
+                    <div class="calculator-image"></div>
+                    <div class="bottom-card">
+                        <p class="button-text">Calculator created with HTML, CSS and JS.
+
+                        </p>
+                        <div class="actions-card">
+                            <a href="https://miguel-s-pereira.github.io/Calculator/"><button id="live-demo-button">Live
+                                    Demo</button></a>
+                            <a href="https://github.com/miguel-s-pereira/Calculator"><button
+                                    id="code-button">Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top-card">
+                        <h2 class="projects-title">Sign-Up Form</h2>
+                    </div>
+                    <div class="signup-image"></div>
+                    <div class="bottom-card">
+                        <p class="button-text">Sign-Up Form created with HTML and CSS.
+
+                        </p>
+                        <div class="actions-card">
+                            <a href="https://miguel-s-pereira.github.io/Sign-Up-Form/"><button
+                                    id="live-demo-button">Live Demo</button></a>
+                            <a href="https://github.com/miguel-s-pereira/Sign-Up-Form"><button
+                                    id="code-button">Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top-card">
+                        <h2 class="projects-title">Admin Dashboard</h2>
+                    </div>
+                    <div class="admin-image"></div>
+                    <div class="bottom-card">
+                        <p class="button-text">Admin Dashboard created with HTML and CSS.
+
+                        </p>
+                        <div class="actions-card">
+                            <a href="https://miguel-s-pereira.github.io/Admin-Dashboard/"><button
+                                    id="live-demo-button">Live Demo</button></a>
+                            <a href="https://github.com/miguel-s-pereira/Admin-Dashboard"><button
+                                    id="code-button">Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top-card">
+                        <h2 class="projects-title">Soon</h2>
+                    </div>
+                    <div class="soon-image"></div>
+                    <div class="bottom-card">
+                        <p class="button-text">Working on projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-top">
+            <a href="#home-section"><i class="fa-solid fa-circle-arrow-up"></i></a>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-box">
+            <div class="footer-text">
+                <p>Made by Miguel Pereira</p>
+                <p>E-mail: miguel.s.pereira@outlook.com</p>
+                <p>Homepage background photo by <a
+                        href="https://unsplash.com/@hirmin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Max
+                        Kleinen</a> on <a
+                        href="https://unsplash.com/s/visual/6b10b1cd-cc52-4eb7-9a35-35574a2066ea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </p>
+            </div>
+            <hr id="footer-line">
+            <div class="socials-button-footer">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
